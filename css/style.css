@@ -6,7 +6,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	transition: all 0.5s;
 }
-h1{
+.logo{
 	color: #000;
 	font-family: 'Rubik Wet Paint', cursive;;
 	font-size: 4rem;
