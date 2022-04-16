@@ -2,7 +2,7 @@
 // jQuery( function($){
 $(document).ready(function(){
 
-    $('.owl-carousel').owlCarousel();
+    $('#owl-carousel').owlCarousel();
 
     let titulos = $('h4') // tag
    
@@ -25,6 +25,27 @@ $(document).ready(function(){
        });
 
     });
+
+  })
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
     //$('.featured-item:first h4').append('<span class="badge bg-secondary">Novo</span>')
     // $('.featured-item:first h4').start('<span class="badge bg-secondary">Novo</span>')
     // $('.featured-item:first h4').html('<span class="badge bg-secondary">Novo</span>')
