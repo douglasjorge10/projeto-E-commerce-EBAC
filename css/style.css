@@ -279,7 +279,9 @@ div.owl-nav{
 	box-shadow: none;
 	border: none;
 }
-
+p.logo{
+	margin: 50px 0;
+}
 
 /* Footer Style */
 .footer {
@@ -599,7 +601,12 @@ div.owl-nav{
 	color: #4a4a4a;
 	font-weight: 400;
 }
-
+.invalid{
+	border: #f00 2px solid;
+}
+.text-muted{
+	display: none;
+}
 
 
 /* About Us Style */
@@ -646,7 +653,10 @@ div.owl-nav{
 .about-page .right-content span a:hover i {
 	background-color: #3a8bcd;
 }
+.owl-carousel.owl-drag .owl-item {
+    padding: 0 10px !important;
 
+}
 
 
 
@@ -777,8 +787,8 @@ div.owl-nav{
 
 
 @media (max-width: 769px) {
-	.logo{
-		font-size: 1.6em;
+	h1.logo{
+		font-size: 2.2em;
 	}
 	.banner .caption h2 {
 		font-size: 1.4em;
@@ -797,10 +807,15 @@ div.owl-nav{
 		width: 100vw;
 		margin-left: -3%;
 	}
+	div p.logo{
+		font-size: .9em;
+		margin: 50px 0;
+	}
 }
 @media (max-width: 575px){
-	.logo{
-		font-size: 1.1em;
+
+	h1.logo{
+		font-size: 1.4em;
 	}
 	.banner{
 		padding: 0;
@@ -822,4 +837,57 @@ div.owl-nav{
 		font-size: 1em;
 		line-height: 1.5em;
 	}
+	
+}
+@media (max-width: 425px){
+h1.logo{
+		font-size: 1.2em;
+}
+	.navbar-dark .navbar-toggler {
+	height: 35px;
+    width: 45px;
+    outline: none;
+    margin-top: -8px;
+}
+.navbar-toggler-icon {
+    display: initial;
+}
+.navbar-dark .navbar-toggler-icon:after {
+    line-height: 27px;
+
+}
+.logo {
+    font-size: 1.2em;
+}
+div p.logo{
+	font-size: 1.5em;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.divFomrNovidades p {
+    font-size: .9em;
+    margin: 20px 0;
+    color: #fff;
+}
+.divFomrNovidades input {
+    width: 59%;
+}
+.divFomrNovidades button {
+    width: 37%;
+}
+.divFomrNovidades {
+    height: 43vh;
+}
+.footer .footer-menu a {
+    margin-right: -20px;
+}
+.footer-menu{
+	margin-top: 20px;
+}
+.social-icons{
+	height: 5vh;
+}
+.sub-footer p {
+    font-size: 10px;
+}
 }
