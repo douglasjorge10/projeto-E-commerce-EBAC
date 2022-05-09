@@ -551,7 +551,7 @@ p.logo{
 	font-weight: 400;
 }
 .invalid{
-	border: #f00 2px solid;
+	border: #f00 2px solid !important;
 }
 .text-muted{
 	display: none;

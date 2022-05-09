@@ -101,10 +101,13 @@ $('.nav-modal-open').on('click', function(e){
     validate($(this))
  })
 
+ $('body').on('blur', '#iMail', function(){
+   validate($(this))
+})
+
  $('body').on('blur', '#email', function(){
     validate($(this))
  })
-
 
  $('body').on('focus', '#date', function(){
     $(this).datepicker()
